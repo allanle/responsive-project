@@ -124,8 +124,149 @@ footer{
 }
 
 footer p{
-	color:#fff;
+	color:#ffffff;
 	margin:0;
 	padding:10px 0 0 0;
 	text-align:center;
+}
+
+/* Tablet (Portrait and Landscape) */
+@media only screen and (min-width : 768px) and (max-width : 960px) {
+	#container {
+		width: 95%;
+	}
+
+	.main-header img#logo {
+		margin: auto;
+		display: block;
+		width: 65%;
+	}
+
+	#content {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar .block {
+		margin-left: 0;
+	}
+}
+
+/* Smaller Tablet (Portrait and Landscape) */
+@media only screen and (min-width : 569px) and (max-width : 767px) {
+	#container {
+		width: 95%;
+	}
+
+	.main-header img#logo {
+		margin: auto;
+		display: block;
+		width: 65%;
+	}
+
+	.main-header .main-nav {
+		height: auto;
+		display: block;
+		overflow: hidden;
+		width: 99%;
+	}
+
+	.main-header .main-nav ul {
+		padding: 2% 1%;
+		text-align: center;
+		width: 98%;
+	}
+
+	.main-header .main-nav li{
+		float: none;
+		display: block;
+		margin-right: 0;
+		width: 100%;
+		border-bottom: 1px solid #a3293b;
+	}
+
+	.main-header .main-nav li a{
+		margin-bottom: 2px;
+		text-align: center;
+	}
+
+	.main-header .main-nav li a:hover,.main-header .main-nav li a.active {
+		display: block;
+	}
+
+	#content {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar .block {
+		margin-left: 0;
+	}
+}
+
+/* Smart Phones (Portrait and Landscape) */
+@media only screen and (min-width : 240px) and (max-width : 568px) {
+	#container {
+		width: 95%;
+	}
+
+	.main-header img#logo {
+		margin: auto;
+		display: block;
+		width: 95%;
+	}
+
+	.main-header .main-nav {
+		height: auto;
+		display: block;
+		overflow: hidden;
+		width: 99%;
+	}
+
+	.main-header .main-nav ul {
+		padding: 2% 1%;
+		text-align: center;
+		width: 98%;
+	}
+
+	.main-header .main-nav li{
+		float: none;
+		display: block;
+		margin-right: 0;
+		width: 100%;
+		border-bottom: 1px solid #a3293b;
+	}
+
+	.main-header .main-nav li a{
+		margin-bottom: 2px;
+		text-align: center;
+	}
+
+	.main-header .main-nav li a:hover,.main-header .main-nav li a.active {
+		display: block;
+	}
+
+	#content {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar .block {
+		margin-left: 0;
+	}
 }
