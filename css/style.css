@@ -36,6 +36,8 @@ h2{
 	margin:10px 0;
 	display:block;
 	width:45%;
+	display: block;
+	transition: width 2s;
 }
 
 .main-header .main-nav{
@@ -74,6 +76,7 @@ h2{
 	overflow:auto;
 	width:70%;
 	float:left;
+	transition: width 1s;
 }
 
 #content article{
@@ -140,6 +143,12 @@ footer p{
 		margin: auto;
 		display: block;
 		width: 65%;
+		transition: width 2s;
+	}
+
+	.main-header .main-nav {
+		display: block;
+		transition: height 1s;
 	}
 
 	#content {
@@ -174,6 +183,7 @@ footer p{
 		display: block;
 		overflow: hidden;
 		width: 99%;
+		transition: width 1s;
 	}
 
 	.main-header .main-nav ul {
